@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c994930f-015c-48af-9b1e-543993dd9a64">
+  <name>Потребители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребители</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаПотребители</picture>
+  </picture>
+  <content>Document.ОтключенныеАбоненты</content>
+  <content>Catalog.ПричиныОтключения</content>
+  <content>Catalog.ПричиныНевозобновления</content>
+  <content>Report.ОтчетПоОтключеннымПотребителямРазширенный</content>
+  <content>Report.ОтчетДляПубликации</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Балансодержатели</content>
+</mdclass:Subsystem>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="069481c7-09b4-4407-99e3-195f8048dcf8">
+  <producedTypes>
+    <objectType typeId="8882704a-842b-48aa-95e6-f05529a309ea" valueTypeId="1cb19903-f92b-4c76-bc70-51faa6b22318"/>
+    <refType typeId="0895faa4-67c6-4e5d-a26f-e0a71551a913" valueTypeId="ff9c9725-8e5d-495a-9b1c-bf4735c6fad8"/>
+    <selectionType typeId="2a6a14b1-8f74-40c4-956c-89f8d630d84a" valueTypeId="4a78a12e-c3ec-440c-aabf-d8eb4e412978"/>
+    <listType typeId="9b4028ea-ef49-4468-b476-dab8e4734a00" valueTypeId="a28ea35a-1e20-4856-a73f-9f12ed95f106"/>
+    <managerType typeId="9d91f61a-64d1-4025-a3df-0e7b96900ea1" valueTypeId="23fba332-a121-454b-a83f-40e156c73882"/>
+  </producedTypes>
+  <name>ЗаявкаПланЗакупок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка план закупок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗаявкаПланЗакупок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЗаявкаПланЗакупок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗаявкаПланЗакупок.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="89a91c35-74d3-4f19-a681-eda5bfafd03c">
+    <name>ПериодРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период регистрации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="b47f4ba1-d485-4d7b-b398-7d149687f55e">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="dcacf266-ffd9-4dcb-92f1-bcc31fb0d6ab">
+    <producedTypes>
+      <objectType typeId="46532e99-fb8b-42d7-9973-f2b9dea74373" valueTypeId="65dde25d-4792-4475-baa6-c1e605e87013"/>
+      <rowType typeId="3bdd4d90-cb3c-4d25-ab63-c4acca925700" valueTypeId="3285a928-98f9-4785-b5e7-e5c1bb80226d"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="2bb47321-228a-4c43-ad64-af8724abcfcd">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c185857b-d8c4-4f79-a547-32f6dc65db7e">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b19563f-a363-49f4-862e-fd1c9f992319">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4c6ebf07-b854-4ac6-80e1-aa942412e470">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

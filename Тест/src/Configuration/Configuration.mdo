@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdc95f58-7034-4ca5-94b4-7954cc6bd8eb">
+  <name>ОбщиеРеестры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие реестры</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="88b812cd-24a0-4dd0-b3b1-49f2180727ab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ac1f9b7c-bbb0-474c-9155-2eb6760b8b08"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9b912d0d-208b-40b0-89dd-d1def8cb08f8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="15580b63-ac93-492e-b10c-972c508333b0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4d921842-f927-4e91-bc69-f1de48588d0d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="635a0f20-7ac3-4bb2-a830-6e50f8b501a5"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version>1.1</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="c1fd5fec-d176-4116-8cf5-3e518a1d51db">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Потребители</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.АдминистраторСистемы</subsystems>
+  <subsystems>Subsystem.Снабжение</subsystems>
+  <commonPictures>CommonPicture.ПодсистемаПотребители</commonPictures>
+  <sessionParameters>SessionParameter.ADMПраваПодтверждены</sessionParameters>
+  <sessionParameters>SessionParameter.ИнтервалОбновленияСписков</sessionParameters>
+  <sessionParameters>SessionParameter.ИспользоватьРЛС</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.ОтключенныеПотребителиВнесениеДанных</roles>
+  <roles>Role.ОтключенныеПотребителиПолныйДоступ</roles>
+  <roles>Role.Снабженец</roles>
+  <roles>Role.Просмотр</roles>
+  <commonModules>CommonModule.ПараметрыСеансаСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.УправлениеПользователямиПовтИсп</commonModules>
+  <commonModules>CommonModule.УправлениеПользователямиСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыБалансодержателей</catalogs>
+  <catalogs>Catalog.ЗаявкаПланЗакупок</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.НаселенныеПункты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ПодразделенияОрганизаций</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПричиныНевозобновления</catalogs>
+  <catalogs>Catalog.ПричиныОтключения</catalogs>
+  <catalogs>Catalog.РайоныГорода</catalogs>
+  <catalogs>Catalog.РолиКонтактныхЛиц</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.СтатьиНалоговыхДеклараций</catalogs>
+  <catalogs>Catalog.ТипыНаселенныхПунктов</catalogs>
+  <catalogs>Catalog.ТипыУлиц</catalogs>
+  <catalogs>Catalog.Улицы</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Балансодержатели</catalogs>
+  <documents>Document.ОтключенныеАбоненты</documents>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.ВидыНалоговыхДеклараций</enums>
+  <enums>Enum.ВидыЖилья</enums>
+  <enums>Enum.Балансодержатели</enums>
+  <enums>Enum.КлассификаторКонтрагента</enums>
+  <reports>Report.ОтчетПоОтключеннымПотребителямРазширенный</reports>
+  <reports>Report.ОтчетДляПубликации</reports>
+  <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.ГруповоеДобавлениеРеквизитовТЧОтключения</dataProcessors>
+  <informationRegisters>InformationRegister.НастройкиПользователей</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.НастройкиПользователей</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

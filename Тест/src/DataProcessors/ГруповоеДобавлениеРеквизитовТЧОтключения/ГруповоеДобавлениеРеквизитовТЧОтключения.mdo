@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad710cb1-6a20-4e62-b479-ea36dc145eeb">
+  <producedTypes>
+    <objectType typeId="67fd8638-fd28-4639-8e5e-982b06fa3b2b" valueTypeId="670a4821-2396-4d12-9f48-595239981263"/>
+    <managerType typeId="ba63b56a-9076-460f-88ea-d39ff61eddb4" valueTypeId="1f816210-0607-4791-9285-432d52507212"/>
+  </producedTypes>
+  <name>ГруповоеДобавлениеРеквизитовТЧОтключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Груповое добавление реквизитов ТЧ Отключения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="1415516d-5788-46dc-b23e-11103cec829a">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.ОтключенныеАбоненты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="afc7d0f1-d97e-446b-b467-5c3d0a93e956">
+    <name>КвартираОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира от</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="501c093d-b981-4944-9eae-75bebe3a1615">
+    <name>КвартираДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира до</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="65ee4ba9-5752-4ec5-9511-612bc57a0a6e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

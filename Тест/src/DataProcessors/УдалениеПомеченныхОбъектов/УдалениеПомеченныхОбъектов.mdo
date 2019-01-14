@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="126b82a2-3914-47a6-a675-63cbace390c7">
+  <producedTypes>
+    <objectType typeId="3404a3be-90ef-4d91-9fcd-251c95dfc9b0" valueTypeId="93076b9a-b6f7-456b-9432-be0de311f463"/>
+    <managerType typeId="97843178-d394-47b5-b6bb-334b5b31d0b6" valueTypeId="e4ee6e54-3b22-43c4-b2f7-0a47bf246d01"/>
+  </producedTypes>
+  <name>УдалениеПомеченныхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удаление помеченных объектов</value>
+  </synonym>
+  <comment>Поиск и удаление объектов, помеченных на удаление</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УдалениеПомеченныхОбъектов.Form.ОсновнаяФорма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2b6c8c31-12a9-4af1-a6d8-c542a365328e">
+    <name>МонопольныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монопольный режим</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8730b9cb-7280-4d7d-a883-1df70f2b5a5c">
+    <name>ИсключенияПоискаСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения поиска ссылок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c08295a8-b44a-408c-8631-d88d674aa399">
+    <producedTypes>
+      <objectType typeId="6947e6d0-875f-44a5-8dc2-1da9a78a08bf" valueTypeId="b473a97b-7cc8-46f2-aadb-fa9a6a4ec06d"/>
+      <rowType typeId="dcee333c-e164-419e-a842-3a54198d887b" valueTypeId="97eebd7c-37aa-4a70-b213-c2ab83b80662"/>
+    </producedTypes>
+    <name>тчВсеНайденные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тч все найденные</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="44c3dd25-31f8-4a5c-8559-a8884714d702">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7b7eff52-a2f4-452a-8d70-903a3cfcb78f">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6a4ed6da-50ed-4b89-ac71-fe09233d391d">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f1764ffa-26a5-46b9-b6a4-0982c949f2fd">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление помеченных объектов</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0d7230f0-320f-45f4-8910-fe22bb17bcc6">
+    <name>ИсключенияПоискаСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения поиска ссылок</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9c9252c-3026-4d5f-bc8d-19d24d83fbb1">
+    <name>ВыборОбъектовМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов метаданных</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

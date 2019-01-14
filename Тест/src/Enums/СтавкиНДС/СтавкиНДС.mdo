@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f1f55f-f825-4090-b3d9-9fc25350e0ef">
+  <producedTypes>
+    <refType typeId="c6fc7efb-27ef-410c-ae3c-390944aac02b" valueTypeId="2f6c575d-ad02-4a54-b615-9bd793302b9b"/>
+    <listType typeId="24548ce3-7177-42e2-ba02-f939ab372c50" valueTypeId="09098fcf-defb-4cb4-a8b5-8617108be9bb"/>
+    <managerType typeId="dc2e3a55-5934-4427-83e4-78d6b31238b9" valueTypeId="1ae218aa-f7df-4b18-be86-898b546040f6"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ставки ПДВ</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d54546b6-a62f-4f66-8ee0-0aa2e6df7ded">
+    <name>НДС0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0%</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>0%</value>
+    </synonym>
+    <comment>(Общ) Ставка НДС 0%</comment>
+  </enumValues>
+  <enumValues uuid="e46f060a-ca99-4907-be9a-7145ca0f2687">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Без ПДВ</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="ca4a053d-9757-4f23-b419-80b07a0194aa">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20%</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>20%</value>
+    </synonym>
+    <comment>(Общ) Ставка НДС 20%</comment>
+  </enumValues>
+  <enumValues uuid="30c9421e-53c6-4164-b3fd-267dbdfc891c">
+    <name>НеНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не НДС</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не ПДВ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="85e73846-26b9-4415-aa06-4ee5413e462a">
+    <name>НДС7</name>
+    <synonym>
+      <key>ru</key>
+      <value>7%</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>7%</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="759f4fa6-1682-46c3-a0ac-0f3b9834ad25">
+  <producedTypes>
+    <objectType typeId="0aa1107b-ae21-47fa-80df-1277c7236e2c" valueTypeId="79bbd7c1-c278-4a48-947c-db19d677c70e"/>
+    <managerType typeId="1fb14b26-2400-4ce3-bdfd-e0bf95e20e4e" valueTypeId="23ce793b-efd0-49e3-a6d2-ab17cb420dca"/>
+  </producedTypes>
+  <name>ОтчетПоОтключеннымПотребителямРазширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по отключенным потребителям разширенный</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоОтключеннымПотребителямРазширенный.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="83096b6e-9e5b-4736-8fa3-099a10fe5d34">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

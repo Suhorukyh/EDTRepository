@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ad72add-a282-49fa-8474-d52b0e7cf01b">
+  <producedTypes>
+    <objectType typeId="f1f1fcf7-0e1f-4807-a1c5-cc81a94829b8" valueTypeId="c683ed17-cb48-4c44-b694-dcf097e56f33"/>
+    <refType typeId="6d9593bf-7f2b-4f1d-a71e-71411d4ea467" valueTypeId="fa88e8f4-bf95-492b-a57c-a6adf2a65df5"/>
+    <selectionType typeId="8a0b4daf-da90-45b3-9011-b6a7aa5cc12c" valueTypeId="b45d3993-db07-43b5-924c-6f4ea5d7db1b"/>
+    <listType typeId="5de634e3-0323-4e7d-92fd-5dca0f4c24f2" valueTypeId="c281116d-6696-4747-b6ad-a0de0a3ec37f"/>
+    <managerType typeId="2aa25676-cb1f-4bc1-92bc-c3df8079842c" valueTypeId="7585e736-0696-4abb-b671-dec3be3cf0c5"/>
+  </producedTypes>
+  <name>РайоныГорода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Районы города</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РайоныГорода.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РайоныГорода.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РайоныГорода.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cd77da31-a78b-4ccf-a2ac-0d831b943112">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Відповідальний менеджер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сотрудник, ответственный за работу с контрагентом.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Співробітник, відповідальний за роботу з контрагентом.</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ea907af9-4473-4ae7-978e-c887608b7c2e.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0324daee-4b09-4189-a76e-68817e3fa708">
+    <name>НоселенныйПункт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Носеленный пункт</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.НаселенныеПункты</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="5860cb36-688d-4150-8fd8-74858aa3c6bd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

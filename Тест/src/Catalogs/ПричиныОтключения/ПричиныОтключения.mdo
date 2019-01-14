@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64b4990d-bc85-48ec-9713-35b8acd69849">
+  <producedTypes>
+    <objectType typeId="b617ab6e-6941-4c3e-a9f7-f9a72f1ecf9c" valueTypeId="28c85f51-54a4-4d72-80f2-f189e8b7a569"/>
+    <refType typeId="815f2cc7-3dc1-4fa8-939f-58c5ea7700a1" valueTypeId="a2d68a81-2ecd-42b4-9106-34deaf70fdf0"/>
+    <selectionType typeId="478578e2-3874-41e3-bb18-de86d43a5efd" valueTypeId="9c5073c5-dd84-477e-ad43-8c97743ae027"/>
+    <listType typeId="9e6f6f15-bdc4-4423-9830-46ee1c3bebb1" valueTypeId="1a3407c0-1866-40c0-9a57-49de1029f0eb"/>
+    <managerType typeId="1c09c0bb-a975-4a77-a8b4-a64379d7484c" valueTypeId="f47e6ad8-7bf0-413b-a21a-01d6bd3cc229"/>
+  </producedTypes>
+  <name>ПричиныОтключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отключения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтключения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОтключения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ПричиныОтключения.Form.ФормаСписка</defaultListForm>
+  <forms uuid="87d77f33-c985-4d19-87d6-6ac04db57d56">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

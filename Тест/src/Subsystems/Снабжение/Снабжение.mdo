@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02444a46-690a-4b31-8fc8-74ee2d46c4c6">
+  <name>Снабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Снабжение</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЗаявкаПланЗакупок</content>
+</mdclass:Subsystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a9c1e42-1192-469a-ad28-cb4c9d3607bd">
+  <producedTypes>
+    <refType typeId="c717903e-094f-4409-97e4-f983a320adcf" valueTypeId="21554ba9-ebd8-49d7-a53a-5f54a144f141"/>
+    <listType typeId="de6f3d08-43a7-45d3-9635-01de8cb38002" valueTypeId="383234c6-7b38-4db1-917f-26ee327b4025"/>
+    <managerType typeId="4d5a10b2-01bf-44cd-9a7d-c5e0e23c7290" valueTypeId="0911fe4e-4ab1-4717-ad41-57486a58ec60"/>
+  </producedTypes>
+  <name>ВидыЖилья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды жилья</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ae8ce40-5f7e-45d1-bcf8-1e7eece5c39b">
+    <name>Многоквартирный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Багатоквартирний</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1a6c5acb-82f3-4a02-8338-33dc2092ef0a">
+    <name>Одноквартирний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приватний сектор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

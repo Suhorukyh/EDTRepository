@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb27e72-858e-4888-95c2-4717373c8045">
+  <name>АдминистраторСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор системы</value>
+  </synonym>
+  <comment>ограниченный доступ</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Пользователи</content>
+  <content>DataProcessor.АктивныеПользователи</content>
+  <content>DataProcessor.КонсольЗапросов</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>06948d07-fc8d-4f68-9fd8-db2a22363c8a</content>
+</mdclass:Subsystem>

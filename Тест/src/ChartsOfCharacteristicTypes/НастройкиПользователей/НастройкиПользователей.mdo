@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dff4f7c3-03d6-45c6-8072-56556f84ab8e">
+  <producedTypes>
+    <objectType typeId="998027cb-2bd9-46fb-ac15-4c5ef95d2a87" valueTypeId="6c9a7bb8-8c50-45b7-b566-a6aa25fc576e"/>
+    <refType typeId="de1b215c-6491-42a0-88e0-be9b94e3f7ac" valueTypeId="69923769-2c45-4ffd-b4ea-1ede7ee3310c"/>
+    <selectionType typeId="950b5081-7119-4214-9bdb-3a7bd9555253" valueTypeId="63773846-1042-4c7c-9553-fa3ae6adebdb"/>
+    <listType typeId="ae9b339f-9530-431f-b4b3-0a4eb14df7fd" valueTypeId="aa779d79-b708-4f6c-b221-7c6c052fac2c"/>
+    <managerType typeId="6d47637f-12b5-4f66-b2a9-0c81e3399c30" valueTypeId="28a8ddb9-601c-4567-a519-1ec565abf664"/>
+    <containerType typeId="d2782a67-9eb6-44cb-a2ca-b603abca818a" valueTypeId="c57445ae-e28a-4f0f-8105-33b79ac6214f"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>ValueType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Настройки пользователей - для каждого пользователя могут быть заданы настройки и значения по умолчанию
+</value>
+  </explanation>
+  <type>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>String</types>
+    <stringQualifiers>
+      <length>300</length>
+    </stringQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>100</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="75502b14-a8c1-428a-9e83-cb2960ad0ecb">
+      <name>ДругиеНастройки</name>
+      <description>Другие настройки</description>
+      <isFolder>true</isFolder>
+      <code>00011</code>
+      <type/>
+      <content id="fe60f2e8-1687-43fb-9080-5c102c1c8879">
+        <name>ВыводитьОрганизацию</name>
+        <description>Выводить организацию</description>
+        <code>00012</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="86f77282-c75b-4fda-ae89-25c8aebd4c5d">
+        <name>ВыводитьСтруктурнуюЕдиницу</name>
+        <description>Выводить структурную единицу</description>
+        <code>00013</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="90403516-bbc5-4a9b-b207-4d437e5df991">
+        <name>ЗапускНесколькихСеансов</name>
+        <description>Запуск нескольких сеансов</description>
+        <code>00016</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="74fa614c-d7c0-4844-a8f7-9b15986846e2">
+        <name>ИзменениеЗакрытыхРасходов</name>
+        <description>Изменение закрытых расходов</description>
+        <code>00017</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="2c8a540a-444f-4373-b4e7-a33e6db82eab">
+        <name>ИзменениеОтветственного</name>
+        <description>Изменение ответственного</description>
+        <code>00014</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="275ca903-714d-4408-a086-2c0c1b5a8c06">
+        <name>ИзменениеЧужихДокументов</name>
+        <description>Изменение чужих документов и справочников</description>
+        <code>00015</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="a5ed43a6-38e3-44a7-b9f3-2ec8c5720a51">
+      <name>ОсновныеЗначенияДляПодстановки</name>
+      <description>Основные значения для подстановки в документы и справочники</description>
+      <isFolder>true</isFolder>
+      <code>00001</code>
+      <type/>
+      <content id="5f173406-6062-4875-997e-ba0e9f72afcb">
+        <name>ОсновнаяОрганизация</name>
+        <description>Основная организация</description>
+        <code>00002</code>
+        <type>
+          <types>CatalogRef.Организации</types>
+        </type>
+      </content>
+      <content id="e2929c23-d78a-49a6-9ffe-230af4a452e6">
+        <name>ОсновнаяСтруктурнаяЕдиница</name>
+        <description>Основная структурная единица</description>
+        <code>00003</code>
+        <type>
+          <types>CatalogRef.Организации</types>
+          <types>CatalogRef.ФизическиеЛица</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Пользователи</types>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="f20abaf2-e200-4c38-9815-68a6162a6c62">
+        <name>ОсновнойВидАктов</name>
+        <description>Основной вид актов</description>
+        <code>00004</code>
+        <type>
+          <types>CatalogRef.Организации</types>
+          <types>CatalogRef.ФизическиеЛица</types>
+          <types>Boolean</types>
+          <types>CatalogRef.Пользователи</types>
+          <types>String</types>
+          <stringQualifiers>
+            <length>300</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаВыбора</defaultChoiceForm>
+  <defaultFolderChoiceForm>ChartOfCharacteristicTypes.НастройкиПользователей.Form.ФормаВыбораГруппы</defaultFolderChoiceForm>
+  <forms uuid="01d52256-0678-4ab1-a356-f9cadcb4aedf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07986937-4e58-449a-b001-133b70b32d0b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6f49896-c7f5-4ab8-a609-18115df7ffdc">
+    <name>ФормаВыбораГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6687fa67-a8b6-48ea-ba7c-39a80d35741f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3433d861-a64b-453d-ba26-7223b3d6063b">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

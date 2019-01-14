@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="581817f0-d490-4060-afe3-cb2889a32030">
+  <producedTypes>
+    <refType typeId="16a56140-b585-463c-8b78-cd86fe243fc1" valueTypeId="8520dcf1-ef3b-430a-a074-100573bd3c0d"/>
+    <listType typeId="34c839d0-2678-4552-8be3-d41fd431a0e1" valueTypeId="28f43d12-9fc1-4e3c-9050-5a1fc6fce409"/>
+    <managerType typeId="35cca5ce-baa2-4227-bd9b-8aa06a7eee41" valueTypeId="3d682ec4-d73f-4b4b-9917-feb2bd91b00a"/>
+  </producedTypes>
+  <name>Балансодержатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Балансодержатели</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8cb8d1bd-b0a7-4bf0-a125-7809e58a1476">
+    <name>ЧС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ч/с</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9d0d5a89-1192-4d94-b542-3b08e42ebdf2">
+    <name>ОСББ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСББ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63fc6566-596c-48b7-a819-a5ee64e6118e">
+    <name>ЖБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖБК</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="795fb956-fba4-4e8e-964d-b929d3c332c0">
+    <name>Жилсервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилсервіс</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07cf50d3-8b21-41a8-85c3-0b27f02e2bf6">
+  <producedTypes>
+    <refType typeId="5ba52e10-bd5c-40df-92b8-22d987b732a3" valueTypeId="868a572f-5be9-45e9-a176-bacdfa4c20e1"/>
+    <listType typeId="c92b7d46-1cc2-43c4-b0bd-778fe7a019c7" valueTypeId="65fdfa67-f839-402f-bee3-bd65f94ec3c1"/>
+    <managerType typeId="ad74719d-52eb-4b20-b2f7-3ffce3a57c48" valueTypeId="37a26003-5aa4-443f-8e82-7bd75ccd7973"/>
+  </producedTypes>
+  <name>ВидыНалоговыхДеклараций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды налоговых деклараций</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Види податкових декларацій</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9464c058-babd-4774-8e8b-51a983e721b6">
+    <name>ДекларацияПоНалогуНаПрибыльНКУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Декларация по налогу на прибыль (до 01.01.2015)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>(не используется) Декларация по налогу на прибыль (до 01.01.2015)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="39708fa7-107a-402b-a27e-6a16b7c21f9f">
+    <name>ДекларацияПоНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация по НДС</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Декларація по ПДВ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="49ccdddc-55f5-4962-b66a-e34e40c76797">
+    <name>Пенсионный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет в ПФ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт у ПФ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c4d3e3d9-4eea-4afc-9522-d4dbe48cdc90">
+    <name>Безработица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет в ФСС на случай безработицы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт у ФСС на випадок безробіття</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="60e863c8-2c0c-4ad9-a305-2d33e166eef3">
+    <name>НесчастныйСлучай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет в ФСС от несчастных случаев</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт у ФСС від нещасних випадків</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3b35b306-1cba-44d7-953d-785d9ec8479c">
+    <name>УтратаТрудоспобности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет в ФСС в связи с утратой трудоспобности</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт у ФСС у зв'язку із втратою працездатності</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c1279771-7bd8-4bd8-853c-80c1aa7db0e6">
+    <name>ЕдиныйНалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по Единому налогу</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт по Єдиному податку</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bd07c812-026f-4271-ba7b-b359d2882b4a">
+    <name>ОтчетПоТруду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по труду</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт по праці</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="567f888f-cfbe-4d2e-a3c0-e6a5d10b9ce4">
+    <name>ОтчетОбИспользованииРабочегоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет об использовании рабочего времени</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт про використання робочого часу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e6d1a306-66fc-4fe6-b2ea-4182bec237f3">
+    <name>ЕСВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по ЕСВ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Звіт по ЄСВ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="38409e58-f594-4660-bb4c-860d396d3ee1">
+    <name>ДекларацияОПрибыли</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Декларация о прибыли (до 01.04.2011)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>(не викоритовується) Декларація про прибуток(до 01.04.2011)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f9342f19-4796-43c2-a252-0bdcd0cd8bf1">
+    <name>ДекларацияПоНалогуНаПрибыль2015</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация по налогу на прибыль</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Декларація з податку на прибуток</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

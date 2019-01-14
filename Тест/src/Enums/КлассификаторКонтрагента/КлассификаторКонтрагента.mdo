@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a54e303-5b08-4877-a12b-b3030b0487c8">
+  <producedTypes>
+    <refType typeId="57cad1b5-a925-4359-9592-0f5e75226fc9" valueTypeId="afd11c40-2161-409b-8a74-0d93f62c356c"/>
+    <listType typeId="1c9ce5a5-db5c-40cc-815a-6f53b66197ac" valueTypeId="0ce07567-ee6c-496b-aa05-7d755ae1e30f"/>
+    <managerType typeId="fa7b5383-bde6-4258-aa4b-e0de82ab25f0" valueTypeId="9879d3ae-eb14-4762-9141-fa738f3ae58e"/>
+  </producedTypes>
+  <name>КлассификаторКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор контрагента</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Класификтор контрагента</value>
+  </synonym>
+  <comment>для хранения видов контрагентов </comment>
+  <standardAttributes>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b5c2dfdf-d535-467b-ad25-976949c40fce">
+    <name>ЮрЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр. лицо</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Юр. особа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="13ef8e8a-559b-49d8-a385-b36c01093d5c">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз. особа</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0d41bf3e-1b27-4586-8f3e-6910f44d6ba0">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ФОП</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1f41c8b2-89a5-4125-a529-8b04af5372c7">
+    <name>ОбъединенияГраждан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объединения граждан</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Об'єднання громадян</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="20b6dac0-e7c2-4e7c-a550-34be388f26f2">
+    <name>НесуществующийКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несуществующий контрагент</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Неіснуючий контрагент</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

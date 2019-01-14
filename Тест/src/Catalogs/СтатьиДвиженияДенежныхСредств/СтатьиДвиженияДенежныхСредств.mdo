@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5333bcc9-12ff-42ab-bf4f-ac857c3bef24">
+  <producedTypes>
+    <objectType typeId="bd92678a-582a-463f-8dab-aa97d4fb8a0f" valueTypeId="2008d364-1a1e-4bbc-8cc6-d5c36f87fcb7"/>
+    <refType typeId="137091a6-ff03-4dd9-8eb2-ed7aa53fb4fd" valueTypeId="a9fde697-dffd-4d6d-bdd6-b2d6e875e3f7"/>
+    <selectionType typeId="76ad39f3-e89e-4767-833b-2732d37bc7e5" valueTypeId="7815ead2-3e03-4cd2-9c72-194cd5744879"/>
+    <listType typeId="5e554026-9a54-4e95-bddf-0ff62f112bf4" valueTypeId="0cb2eff5-d402-4729-994d-8f4b3a42d8e5"/>
+    <managerType typeId="791bd694-cda9-43c6-8c69-079ecdb87457" valueTypeId="c1dc2b44-8504-4753-82f4-5bb5ecc4fe36"/>
+  </producedTypes>
+  <name>СтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи движения денежных средств</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДвиженияДенежныхСредств.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d771d085-75e2-4e57-a45d-08efbb6a10a9">
+    <name>СтатьяДекларацииПоНалогуНаПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья декларации по налогу на прибыль</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Стаття декларації з податку на прибуток</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СтатьиНалоговыхДеклараций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

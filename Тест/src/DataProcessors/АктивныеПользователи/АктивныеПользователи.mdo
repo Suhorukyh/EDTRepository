@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="214792b9-c079-496b-ac29-1827e05867d7">
+  <producedTypes>
+    <objectType typeId="d50ffe87-aed1-4121-93ad-e9028ca659c4" valueTypeId="7dda1b54-63a2-40f8-84fd-f5ef9bf9836b"/>
+    <managerType typeId="4248aca6-c06a-4419-b7a2-7e4d1b92ed2b" valueTypeId="44eda8d2-42e1-43de-9189-7c3f5a107da3"/>
+  </producedTypes>
+  <name>АктивныеПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Активные пользователи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Активні користувачі</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АктивныеПользователи.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>uk</lang>
+    </pages>
+  </help>
+  <forms uuid="ab9bc885-2251-4032-b583-7bedaa193ab5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные пользователи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Активні користувачі</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3787fbae-d046-4f5d-b960-b609e85b6735">
+    <name>АктивныеПользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные пользователи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Активні користувачі</value>
+    </synonym>
+    <comment></comment>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

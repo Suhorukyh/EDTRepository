@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f66817c9-ec94-4e48-8c1d-16bfb9ac6769">
+  <producedTypes>
+    <objectType typeId="b7d1f0c3-3465-4f34-bd2b-4faed12128b8" valueTypeId="4fcede5e-c1db-430a-bf37-9cda891d4bca"/>
+    <refType typeId="ad1f7580-6e02-4fef-9e6c-1cb47432f0bf" valueTypeId="08afb96b-5c0a-431d-acb0-2a61c4d14baa"/>
+    <selectionType typeId="d3e13272-2850-4711-b53d-72e35731a813" valueTypeId="ab69ed9b-e12a-4927-8401-9a1fe3f364dc"/>
+    <listType typeId="9b2c7a97-ce5f-4dac-a9d3-bf6c5b8685cc" valueTypeId="fd7760db-ebc8-4673-98fa-5cef750d099f"/>
+    <managerType typeId="806580fb-4452-4b6d-9553-5978be6aa8a4" valueTypeId="902ee72c-6078-4856-b0df-1f395245565a"/>
+  </producedTypes>
+  <name>ПричиныНевозобновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины невозобновления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныНевозобновления.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныНевозобновления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ПричиныНевозобновления.Form.ФормаСписка</defaultListForm>
+  <forms uuid="5f130a6a-a109-49ef-83c3-ea4ad10d3d37">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

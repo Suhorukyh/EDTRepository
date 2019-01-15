@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<diagram>
+	<tab name="Тест" projectName="Тест;">
+		<entities>
+			<entity x="200" y="214" width="200" height="55" eClass="Catalog" uri="bm://Тест/Catalog.Контрагенты#/">
+			</entity>
+			<entity x="200" y="63" width="200" height="71" eClass="Catalog" uri="bm://Тест/Catalog.БанковскиеСчета#/">
+			</entity>
+		</entities>
+		<relations for="main">
+			<relation source="Справочник.Контрагенты" target="Справочник.БанковскиеСчета">
+				<pathPoint x="315" y="214"></pathPoint>
+				<pathPoint x="315" y="173"></pathPoint>
+				<pathPoint x="315" y="134"></pathPoint>
+			</relation>
+			<relation source="Справочник.БанковскиеСчета" target="Справочник.Контрагенты">
+				<pathPoint x="285" y="134"></pathPoint>
+				<pathPoint x="285" y="173"></pathPoint>
+				<pathPoint x="285" y="214"></pathPoint>
+			</relation>
+		</relations>
+	</tab>
+</diagram>
